@@ -30,6 +30,10 @@ User Story:
 - In order to keep my funds secure             
 - I want a secure Pin code & an expiry date on my card that allows only me access to my funds
 
+7)
+- As a ATM operator
+- In order to allow access active customers
+- I want to allow withdrawal only from active customers 
 
 TODO
 
@@ -101,3 +105,7 @@ Seth:
 **NOTE: IT IS NOT 04/2017!!! (fix date in tutorial)
 3) Run tests, verify working ATM
 4) Push to remote repo
+
+Dash:
+1) Update User Story with active account/customer narrative
+2) Add the disabled account functionality

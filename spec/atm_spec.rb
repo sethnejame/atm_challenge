@@ -12,7 +12,7 @@ describe Atm do
         expect(subject.funds).to eq 950
     end
 
-    let(:account) {instance_double('Account', pin_code: '1234', exp_date: '04/22')}
+    let(:account) {instance_double('Account', pin_code: '1234', exp_date: '04/22', account_status: :active)}
 
     before do
         allow(account).to receive(:balance).and_return(100)
@@ -44,6 +44,11 @@ describe Atm do
         allow(account).to receive(:exp_date).and_return('12/15')
         expected_output = { status: false, message: 'card expired', date: Date.today }
         expect(subject.withdraw(6, '1234', account)).to eq expected_output
+    end
+
+    it 'rejects the withdraw if the account is disabled' do
+    expected_output = {status: false, message: 'account disabled', date: Date.today}
+    expect(subject.withdraw(50, '1234', account, account_status)).to eq expected_output
     end
 end
 
