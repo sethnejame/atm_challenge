@@ -61,3 +61,9 @@ Dash:
 4) Running rspec test. Succeded!
 5) Pushing the updates to github repo
 
+Seth:
+1) Update README
+2) Add an insufficient funds return to withdraw method
+3) Test and push to repo
+
+
