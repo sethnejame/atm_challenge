@@ -10,3 +10,11 @@ Dash
 3) Creating a lib folder
 4) Creating an atm.rb file
 5) Run the first test
+
+Seth
+1) Update README.md
+2) Create second test for withdraw in atm_spec
+3) Create method for second test in atm
+4) Push successful tests/files up to remote repo
+
+
