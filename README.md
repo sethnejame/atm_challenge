@@ -20,9 +20,15 @@ User Story:
 - In order ensure that an Acccount holder can only withdraw funds that he has    balance for           
 - I want to allow a withdrawal only if there are sufficient funds in the account
 
+5)
 - As a ATM operator
 - In order for our customers to withdraw funds
 - I need make sure that we only allow withdrawals if there is sufficient funds available
+
+6)
+- As a Customer              
+- In order to keep my funds secure             
+- I want a secure Pin code & an expiry date on my card that allows only me access to my funds
 
 
 TODO
@@ -70,10 +76,17 @@ Seth:
 3) Test and push to repo
 
 Dash:
-1) Update the User Story
+1) Update the User Story regarding ATM funds
 2) Update the README  file
 3) Writing additional functionalities for the atm within the withdraw method 
 4) Running the rspec tests successfully 
 5) Pushing everything up to the github repo
+
+Seth:
+1) Update User Story regarding PIN Code & Expiry Date
+2) Update README file w/ TODO
+3) Add PIN Code tests and functionality to withdraw method
+4) Run rspec to make sure PIN works
+5) Add & Commit Changes, push to repo
 
 
