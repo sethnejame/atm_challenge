@@ -54,5 +54,10 @@ Seth:
 2) Add extra withdraw functionality
 3) Test new account feature, push to repo
 
-
+Dash:
+1) Running the rspec again. All tests pass
+2) Update README
+3) Refactoring the withdraw method in order to make it readable for a common eye
+4) Running rspec test. Succeded!
+5) Pushing the updates to github repo
 
