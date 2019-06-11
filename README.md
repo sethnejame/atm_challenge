@@ -6,3 +6,7 @@ Seth:
 
 Dash
 1) Modifying README file
+2) Create the atm_spec file and write the first test to run in rspec
+3) Creating a lib folder
+4) Creating an atm.rb file
+5) Run the first test
