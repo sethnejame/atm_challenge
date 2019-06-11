@@ -89,4 +89,7 @@ Seth:
 4) Run rspec to make sure PIN works
 5) Add & Commit Changes, push to repo
 
-
+Dash:
+1) Update README file
+2) Modify the withdraw method by adding a correct-pin checking method
+3) Creating a private method for incorrect pin input
