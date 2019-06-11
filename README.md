@@ -108,4 +108,6 @@ Seth:
 
 Dash:
 1) Update User Story with active account/customer narrative
-2) Add the disabled account functionality
+2) Add disabled account functionability
+3) Run rspec tests successfully
+4) Update README file
