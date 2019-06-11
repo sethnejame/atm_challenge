@@ -20,17 +20,12 @@ class Atm
         else
             perform_transaction(amount, account)
         end
-
-        #def card_expired?(exp_date)
-           # Date.strptime(exp_date, '%m/%y') < Date.today
-        #end
-
     end
 
     private
 
     def account_disabled?(account_status)
-    account_status != :active
+        account_status != :active
     end
 
     def insufficient_funds_in_account?(amount,account)

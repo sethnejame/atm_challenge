@@ -111,3 +111,9 @@ Dash:
 2) Add disabled account functionability
 3) Run rspec tests successfully
 4) Update README file
+
+Seth:
+1) Clean up code/syntax
+2) Walk through all tests with Dash
+3) Push cleaned up code to repo
+4) Update README
