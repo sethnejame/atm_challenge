@@ -61,6 +61,7 @@ Dash:
 Seth:
 1) Update README.md
 2) Add extra withdraw functionality
+**NOTE: in order to use Date.today, must add require 'date' at top of file
 3) Test new account feature, push to repo
 
 Dash:
@@ -93,3 +94,10 @@ Dash:
 1) Update README file
 2) Modify the withdraw method by adding a correct-pin checking method
 3) Creating a private method for incorrect pin input
+
+Seth:
+1) Update README  file
+2) Implement expiration date functionality and tests
+**NOTE: IT IS NOT 04/2017!!! (fix date in tutorial)
+3) Run tests, verify working ATM
+4) Push to remote repo
