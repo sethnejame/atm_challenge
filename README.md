@@ -20,6 +20,9 @@ User Story:
 - In order ensure that an Acccount holder can only withdraw funds that he has    balance for           
 - I want to allow a withdrawal only if there are sufficient funds in the account
 
+- As a ATM operator
+- In order for our customers to withdraw funds
+- I need make sure that we only allow withdrawals if there is sufficient funds available
 
 
 TODO
@@ -65,5 +68,12 @@ Seth:
 1) Update README
 2) Add an insufficient funds return to withdraw method
 3) Test and push to repo
+
+Dash:
+1) Update the User Story
+2) Update the README  file
+3) Writing additional functionalities for the atm within the withdraw method 
+4) Running the rspec tests successfully 
+5) Pushing everything up to the github repo
 
 
