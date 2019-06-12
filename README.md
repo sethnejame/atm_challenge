@@ -1,44 +1,67 @@
 User Story:
 
 1)
-- As a User       
-- In order to make an withdrawal      
-- The ATM needs to have funds
+```
+As a User       
+In order to make an withdrawal      
+The ATM needs to have funds
+```
 
 2)
-- As a User               
-- In order to know if my withdrawal was successful or unsuccessful      
-- I want to receive a message with my withdrawal details
+```
+As a User               
+In order to know if my withdrawal was successful or unsuccessful      
+I want to receive a message with my withdrawal details
+```
 
 3)
-- As an ATM operator          
-- In order for the right person to make a withdrawal            
-- I want each person to have an separate account
+```
+As an ATM operator          
+In order for the right person to make a withdrawal            
+I want each person to have an separate account
+```
 
 4)
-- As a ATM operator           
-- In order ensure that an Acccount holder can only withdraw funds that he has    balance for           
-- I want to allow a withdrawal only if there are sufficient funds in the account
+```
+As a ATM operator           
+In order ensure that an Acccount holder can only withdraw funds that he has    balance for           
+I want to allow a withdrawal only if there are sufficient funds in the account
+```
 
 5)
-- As a ATM operator
-- In order for our customers to withdraw funds
-- I need make sure that we only allow withdrawals if there is sufficient funds available
+```
+As a ATM operator
+In order for our customers to withdraw funds
+I need make sure that we only allow withdrawals if there is sufficient funds available
+```
 
 6)
-- As a Customer              
-- In order to keep my funds secure             
-- I want a secure Pin code & an expiry date on my card that allows only me access to my funds
+```
+As a Customer              
+In order to keep my funds secure             
+I want a secure Pin code & an expiry date on my card that allows only me access to my funds
+```
 
 7)
-- As a ATM operator
-- In order to allow access active customers
-- I want to allow withdrawal only from active customers 
+```
+As a ATM operator
+In order to allow access active customers
+I want to allow withdrawal only from active customers 
+```
 
 8)
-- As an Bank Customer    
-- In order to withdraw funds in even amounts  
-- I want to receive funds in 5, 10 & 20$ bills
+```
+As an Bank Customer    
+In order to withdraw funds in even amounts  
+I want to receive funds in 5, 10 & 20$ bills
+```
+
+9)
+```
+As a customer
+In order to manage my funds
+I need to have a personal account
+```
 
 TODO
 
@@ -124,9 +147,15 @@ Seth:
 4) Update README
 
 Dash:
-
 1) Update the User Story with 'cash is king' first story
 2) Update README file
 3) Defining bill concept and write bill method
 4) Run rspec test succesfully
 5) Pushing everything to github repository
+
+Seth:
+1) Update User Story w/ new Account Class info
+2) Update README 
+3) Create account.rb and account_spec.rb files
+4) Build PIN Code test and Account Class in account_spec.rb and account.rb respectively
+5) Rspec for successful tests, push up to remote repo
