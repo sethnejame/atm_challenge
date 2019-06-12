@@ -159,3 +159,9 @@ Seth:
 3) Create account.rb and account_spec.rb files
 4) Build PIN Code test and Account Class in account_spec.rb and account.rb respectively
 5) Rspec for successful tests, push up to remote repo
+
+Dash:
+1) Update README file
+2) Creating additional test for expiration date
+3) Successfully running rspec test
+4) Push everything to github repo
