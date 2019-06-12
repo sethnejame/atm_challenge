@@ -164,4 +164,6 @@ Dash:
 1) Update README file
 2) Creating additional test for expiration date
 3) Successfully running rspec test
-4) Push everything to github repo
+4) Creating a "account deactivated" using instance method
+5) Succesfully running rspec test
+6) Push everything to github repo
