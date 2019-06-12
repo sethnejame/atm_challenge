@@ -192,4 +192,8 @@ Seth:
 3) Run tests, all green
 4) Push to repo
 
+Dash:
+1) Update README file
+2) Writing 'person can create account' test and 'person owns the account' test
+3) Run the rspec tests, failing the right way (NoMethod Error) 
 
