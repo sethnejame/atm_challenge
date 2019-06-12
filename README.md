@@ -185,3 +185,11 @@ Dash:
 2) Update User Story with account assignment feature to a specific customer/person
 3) Create person.rb file & person_spec.rb
 4) Writing the first test to run in rspec
+
+Seth:
+1) Update README file
+2) Create :cash & :account tests and attributes
+3) Run tests, all green
+4) Push to repo
+
+
