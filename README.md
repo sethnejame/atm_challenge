@@ -62,6 +62,12 @@ As a customer
 In order to manage my funds
 I need to have a personal account
 ```
+10)
+````
+As a ATM operator      
+In order to keep track of our costumers     
+We want to assign each account to a separate person
+```
 
 TODO
 
@@ -173,3 +179,9 @@ Seth:
 2) Create instance_double (fake class) of a person, add owner attribute to initialize method in account
 3) Run tests to make sure person/owner functionality work
 4) Push to repo
+
+Dash:
+1) Update README file
+2) Update User Story with account assignment feature to a specific customer/person
+3) Create person.rb file & person_spec.rb
+4) Writing the first test to run in rspec
