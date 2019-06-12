@@ -35,6 +35,11 @@ User Story:
 - In order to allow access active customers
 - I want to allow withdrawal only from active customers 
 
+8)
+- As an Bank Customer    
+- In order to withdraw funds in even amounts  
+- I want to receive funds in 5, 10 & 20$ bills
+
 TODO
 
 Seth:
@@ -117,3 +122,11 @@ Seth:
 2) Walk through all tests with Dash
 3) Push cleaned up code to repo
 4) Update README
+
+Dash:
+
+1) Update the User Story with 'cash is king' first story
+2) Update README file
+3) Defining bill concept and write bill method
+4) Run rspec test succesfully
+5) Pushing everything to github repository
