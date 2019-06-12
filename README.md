@@ -167,3 +167,9 @@ Dash:
 4) Creating a "account deactivated" using instance method
 5) Succesfully running rspec test
 6) Push everything to github repo
+
+Seth:
+1) Update README file
+2) Create instance_double (fake class) of a person, add owner attribute to initialize method in account
+3) Run tests to make sure person/owner functionality work
+4) Push to repo
