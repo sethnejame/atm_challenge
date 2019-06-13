@@ -197,3 +197,8 @@ Dash:
 2) Writing 'person can create account' test and 'person owns the account' test
 3) Run the rspec tests, failing the right way (NoMethod Error) 
 
+Seth:
+1) Update README file
+2) Write remaining tests for person class
+3) Run rspec for person class, 4 tests passing (good@!) 4 tests failing
+4) Push to repo
