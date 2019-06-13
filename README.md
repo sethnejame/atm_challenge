@@ -202,3 +202,10 @@ Seth:
 2) Write remaining tests for person class
 3) Run rspec for person class, 4 tests passing (good@!) 4 tests failing
 4) Push to repo
+
+Dash:
+1) Update README file
+2) Writing methods that create an account for person.rb
+3) Verified name 
+4) Running the rspec test successfully
+5) Push to repo
