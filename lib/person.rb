@@ -2,7 +2,7 @@ require './lib/atm.rb'
 require './lib/account.rb'
 
 class Person
-    attr_accessor :name, :cash, :account
+    attr_accessor :name, :cash, :account, :deposit
 
     def initialize(attrs = {})
         @cash = 0
@@ -15,10 +15,14 @@ class Person
     end
 
     def deposit(amount)
-        @deposit = amount
+        @account == nil ? no_account : @deposit = amount
     end
 
     private
+
+    def no_account
+        raise "No account present"
+    end
     
     def set_name(obj)
         obj == nil ? missing_name : @name = obj

@@ -212,4 +212,7 @@ Dash:
 
 Seth:
 1) Update README
-2) Write deposit method and functionality
+2) Write deposit method and functionality 
+3) Revise deposit test spec (subject.account = nil)
+4) Run rspec tests successfully
+5) Push to repo
