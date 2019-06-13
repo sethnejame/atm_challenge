@@ -63,11 +63,19 @@ In order to manage my funds
 I need to have a personal account
 ```
 10)
-````
+```
 As a ATM operator      
 In order to keep track of our costumers     
 We want to assign each account to a separate person
 ```
+11)
+````
+As a ATM operator
+In order to enable customers to withdraw and deposit funds
+We need to keep track of every customers balance
+````
+
+
 
 TODO
 
@@ -215,4 +223,11 @@ Seth:
 2) Write deposit method and functionality 
 3) Revise deposit test spec (subject.account = nil)
 4) Run rspec tests successfully
+5) Push to repo
+
+Dash:
+1) Update README
+2) Writing first 2 tests for step 8
+3) Successfully passing the rspec tests
+4) Writing a new User Story for the step 8 first two tests
 5) Push to repo

@@ -12,12 +12,16 @@ class Person
     end
 
     def create_account
-        binding.pry
         @account = Account.new(owner: self)
     end
 
-    def deposit(amount)
-        @account == nil ? no_account : @deposit = amount
+    def deposit(dinero)
+        @account == nil ? no_account : self.account.balance += dinero
+        @cash -= dinero
+    end
+
+    def withdraw(amount)
+        amount
     end
 
     private
@@ -34,6 +38,6 @@ class Person
         raise "A name is required"
     end
     
-
+    
 
 end
