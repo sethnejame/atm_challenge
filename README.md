@@ -209,3 +209,7 @@ Dash:
 3) Verified name 
 4) Running the rspec test successfully
 5) Push to repo
+
+Seth:
+1) Update README
+2) Write deposit method and functionality

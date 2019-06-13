@@ -1,4 +1,4 @@
-
+require './lib/atm.rb'
 require './lib/account.rb'
 
 class Person
@@ -14,6 +14,10 @@ class Person
         @account = Account.new(owner: self)
     end
 
+    def deposit(amount)
+        @deposit = amount
+    end
+
     private
     
     def set_name(obj)
@@ -23,7 +27,6 @@ class Person
     def missing_name
         raise "A name is required"
     end
-    
     
 
 
