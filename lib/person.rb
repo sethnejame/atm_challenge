@@ -1,5 +1,6 @@
 require './lib/atm.rb'
 require './lib/account.rb'
+require 'pry'
 
 class Person
     attr_accessor :name, :cash, :account, :deposit
@@ -11,6 +12,7 @@ class Person
     end
 
     def create_account
+        binding.pry
         @account = Account.new(owner: self)
     end
 

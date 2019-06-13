@@ -1,6 +1,7 @@
 require './lib/person'
 require './lib/atm'
 require 'date'
+require 'pry'
 
 describe Person do
     subject {described_class.new(name: "Mr. Whiskers")}
@@ -38,14 +39,14 @@ describe Person do
         it 'can deposit funds' do
             expect(subject.deposit(100)).to be_truthy
         end
+    end
 
     describe 'can not manage funds if no account has been created' do
         it 'can not deposit funds' do
-            subject.account = nil
+            # binding.pry
+            # subject.account = nil
             expect { subject.deposit(100) }.to raise_error(RuntimeError, 'No account present')
         end
     end
-end
-
 
 end
