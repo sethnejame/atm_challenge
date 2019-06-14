@@ -10,7 +10,6 @@ class Person
         @account = nil
         set_name(attrs[:name])
     end
-    binding.pry
 
     def create_account
         @account = Account.new(owner: self)
