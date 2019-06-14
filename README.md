@@ -231,3 +231,9 @@ Dash:
 3) Successfully passing the rspec tests
 4) Writing a new User Story for the step 8 first two tests
 5) Push to repo
+
+Seth:
+1) Update README
+2) Write last two tests of step 8
+3) Run tests on last two tests, green
+4) Push to repo

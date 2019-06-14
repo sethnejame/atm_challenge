@@ -21,7 +21,16 @@ class Person
     end
 
     def withdraw(amount)
-        amount
+        if @atm == nil then no_atm end
+        if amount > self.account.balance then no_funds else self.account.balance -= amount end
+    end
+
+    def no_atm
+        raise "An ATM is required"
+    end
+
+    def no_funds
+        raise "You're broke, bitch!"
     end
 
     private
